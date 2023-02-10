@@ -1,0 +1,33 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "prettier/prettier",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    // "semi": ["error", "never"],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto",
+        "semi": false,
+        "trailingComma": "all",
+        "singleQuote": true
+      },
+      {
+        "usePrettierrc": false
+      }
+    ]
+  },
+  // Newly added property
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}

@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@font-face {
+  font-family: 'BlissProBold';
+  src: url('../src/assets/fonts/BlissPro-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'BlisProExtraBold';
+  src: url('../src/assets/fonts/BlissPro-ExtraBold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'BlissProHeavy';
+  src: url('../src/assets/fonts/BlissPro-Heavy.otf') format('opentype');
+}
+@font-face {
+  font-family: 'BlissProLight';
+  src: url('../src/assets/fonts/BlissPro-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'BlissProExtraLight';
+  src: url('../src/assets/fonts/BlissPro-ExtraLight.otf') format('opentype');
+}
+
+* {
+  /*box-sizing: border-box;*/
+}
+
+#root{
+  height: 100vh;
+
+}
+
+html, body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-weight: 300;
+  color: white;
+  font-family: 'BlissProLight', sans-serif;
+  overflow: hidden;
+}
+
+p, ul, li {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  list-style: none;
+
+  text-decoration: none;
+  color: white;
+}
+.insider {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  color: white;
+  cursor: pointer;
+}
+#image-map-pro-container{
+  background-color: transparent;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

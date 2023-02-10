@@ -1,0 +1,42 @@
+#logoImg {
+  width: 250px;
+  margin-left: 56px;
+  position: fixed;
+}
+
+.app-bar {
+  background-color: transparent !important;
+}
+.app-bar img {
+  z-index: 1;
+  width: 250px;
+  position: relative;
+  top: 20px;
+  display: flex;
+  left: 100px;
+}
+.items {
+  top: 50px;
+}
+.item {
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 3.08px;
+  align-items: normal;
+}
+
+.item::after {
+  /* ADDED */
+  content: "|";
+  margin: -10px 0 0 15px;
+  height: 10px;
+  font-size: 12px;
+}
+.items .item:nth-child(3)::after {
+  content: "";
+}
+
+.items a {
+  text-decoration: none;
+}
