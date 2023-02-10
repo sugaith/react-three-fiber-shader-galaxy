@@ -38,7 +38,7 @@ export default function App() {
     (state) => state.transitionToState0,
   )
 
-  const [shouldShowGalaxy, setShouldShowGalaxy] = useState(false)
+  const [shouldShowGalaxy, setShouldShowGalaxy] = useState(true)
 
   function onBackButtonClick() {
     transitionToState0()
