@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react-three-fiber-shader-boilerplate/static/css/main.2108a4e4.css",
+    "main.js": "/react-three-fiber-shader-boilerplate/static/js/main.c495e87c.js",
+    "static/js/787.886c6872.chunk.js": "/react-three-fiber-shader-boilerplate/static/js/787.886c6872.chunk.js",
+    "static/media/dark-s_px.jpg": "/react-three-fiber-shader-boilerplate/static/media/dark-s_px.a1ae00da662d46d9ac62.jpg",
+    "static/media/dark-s_ny.jpg": "/react-three-fiber-shader-boilerplate/static/media/dark-s_ny.c3ceaebdd1ece7f6f885.jpg",
+    "static/media/dark-s_pz.jpg": "/react-three-fiber-shader-boilerplate/static/media/dark-s_pz.ffa5f9071f19b1401eae.jpg",
+    "static/media/dark-s_py.jpg": "/react-three-fiber-shader-boilerplate/static/media/dark-s_py.795ef2551f10926180ec.jpg",
+    "static/media/dark-s_nz.jpg": "/react-three-fiber-shader-boilerplate/static/media/dark-s_nz.0ad046fa2949101acc02.jpg",
+    "static/media/dark-s_nx.jpg": "/react-three-fiber-shader-boilerplate/static/media/dark-s_nx.6ce4f949c6cd3cebcbf7.jpg",
+    "static/media/BlissPro-ExtraBold.otf": "/react-three-fiber-shader-boilerplate/static/media/BlissPro-ExtraBold.3e0fabb80d1d6f83dfb8.otf",
+    "static/media/BlissPro-Bold.otf": "/react-three-fiber-shader-boilerplate/static/media/BlissPro-Bold.38746854a33af75880bb.otf",
+    "static/media/BlissPro-Light.otf": "/react-three-fiber-shader-boilerplate/static/media/BlissPro-Light.959e17d23d3680614347.otf",
+    "static/media/BlissPro-Heavy.otf": "/react-three-fiber-shader-boilerplate/static/media/BlissPro-Heavy.647cea6124df6d58ad98.otf",
+    "static/media/BlissPro-ExtraLight.otf": "/react-three-fiber-shader-boilerplate/static/media/BlissPro-ExtraLight.ea912605de4745f69613.otf",
+    "static/media/estrelas.png": "/react-three-fiber-shader-boilerplate/static/media/estrelas.e2391933dc22480ac6c2.png",
+    "static/media/centros-7.png": "/react-three-fiber-shader-boilerplate/static/media/centros-7.4a808949cc699cd3311a.png",
+    "static/media/centros-3.png": "/react-three-fiber-shader-boilerplate/static/media/centros-3.4c5a264a98759a26347c.png",
+    "index.html": "/react-three-fiber-shader-boilerplate/index.html",
+    "static/media/botao-principal-site.svg": "/react-three-fiber-shader-boilerplate/static/media/botao-principal-site.4b06ce6bd8f4684d014a7c93bda6f3e9.svg",
+    "static/media/botao-som.svg": "/react-three-fiber-shader-boilerplate/static/media/botao-som.ee620bdd545e2a6036f1f4c6f9a9c471.svg",
+    "main.2108a4e4.css.map": "/react-three-fiber-shader-boilerplate/static/css/main.2108a4e4.css.map",
+    "main.c495e87c.js.map": "/react-three-fiber-shader-boilerplate/static/js/main.c495e87c.js.map",
+    "787.886c6872.chunk.js.map": "/react-three-fiber-shader-boilerplate/static/js/787.886c6872.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2108a4e4.css",
+    "static/js/main.c495e87c.js"
+  ]
+}
