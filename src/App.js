@@ -14,7 +14,6 @@ import FirstMaskPage from './view/MaskPage/FirstMaskPage'
 import { BackButton } from './view/GeneralStyles'
 import { useControlsStore } from './ControlsStore'
 import CircularStatic from './view/LoadingPage/LoadingPage'
-import mobile from '../src/assets/mobile_home.png'
 window.JQuery = $
 import { isMobile } from 'react-device-detect'
 
@@ -202,9 +201,7 @@ function MobileScreen() {
             zIndex: 'inifinity',
             height: '100%',
           }}
-        >
-          <img src={mobile} style={{ height: imageHeight }} />
-        </div>
+        ></div>
       ) : null}
     </>
   )
