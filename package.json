@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "node_version": "16.8.0",
   "private": true,
+  "homepage": "https://sugaith.github.io/react-three-fiber-shader-boilerplate/",
   "dependencies": {
     "@babel/core": "^7.17.5",
     "@callstack/async-storage": "^2.0.3",
