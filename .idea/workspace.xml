@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c24faf73-4155-4399-9333-a0891e984efb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react-three-fiber-shader-boilerplate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/models/galaxy/scene.gltf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/models/galaxy/scene.gltf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/getHttpsConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jest/babelTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/jest/babelTransform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jest/cssTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jest/fileTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/modules.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/paths.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack/persistentCache/createEnvironmentHash.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack/persistentCache/createEnvironmentHash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpackDevServer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bola.gltf" beforeDir="false" afterPath="$PROJECT_DIR$/public/bola.gltf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scene.gltf" beforeDir="false" afterPath="$PROJECT_DIR$/public/scene.gltf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ControlsStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/estrela-secundaria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/estrelas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/firsMenuIconsOld/10_Cr_FSG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/firsMenuIconsOld/11_Cr_Unicid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/firsMenuIconsOld/12_Cr_Unifran.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/firsMenuIconsOld/13_Cr_Brass-Cubas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/firsMenuIconsOld/1_Cr_Virtual.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/firsMenuIconsOld/1_cruzeiro-do-sul-virtual.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/firsMenuIconsOld/2_Cr_universidade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/firsMenuIconsOld/3_Cr_Modulo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/firsMenuIconsOld/4_Cr_cesuca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/firsMenuIconsOld/5_Cr_UDF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/firsMenuIconsOld/6_Cr_FASS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/firsMenuIconsOld/7_Cr_Ceounsp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/firsMenuIconsOld/8_Cr_UNIMP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/firsMenuIconsOld/9_Cr_Positivo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/cube_texture_bg/dark-s_nx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/cube_texture_bg/dark-s_ny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/cube_texture_bg/dark-s_nz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/cube_texture_bg/dark-s_px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/cube_texture_bg/dark-s_py.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/cube_texture_bg/dark-s_pz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/milkyway_02/dark-s_nx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/milkyway_02/dark-s_ny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/milkyway_02/dark-s_nz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/milkyway_02/dark-s_px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/milkyway_02/dark-s_py.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/milkyway_02/dark-s_pz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/UIXControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/UIXControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/elementsPositions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/elementsPositions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/GeneralStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GeneralStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/HtmlView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/HtmlView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/LoadingPage/LoadingPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MainPage/GalaxyMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MainPage/GalaxyMenuCDSVirtual.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MainPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainPage/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MainPage/MenuTopData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MainPage/MenuTopStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MainPage/mainPageData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainPage/mainPageData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MaskPage/FirstMaskPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MaskPage/MainMaskPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/NucleosPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/NucleosPage/NucleosPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/NucleosPageStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/NucleosPage/NucleosPageStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/nucleosPageData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/NucleosPage/nucleosPageData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Scene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Scene.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/3D/Bola/Bola.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/components/3D/Bola/Bola.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/3D/Galaxy/Galaxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/components/3D/Galaxy/Galaxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/3D/Galaxy/LightGalaxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/3D/Galaxy/galaxyAlphaCircle2.vert" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/components/3D/Galaxy/galaxyAlphaCircle2.vert" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/3D/ShiningStar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/components/ImageTransistor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/components/ImageTransistor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LW3D75O5yI2umWkQaIq1OE9PPH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;155d1e&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c24faf73-4155-4399-9333-a0891e984efb" name="Changes" comment="" />
+      <created>1675972891833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675972891833</updated>
+      <workItem from="1675972895872" duration="14241000" />
+      <workItem from="1676065419217" duration="137000" />
+      <workItem from="1676065568800" duration="3189000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

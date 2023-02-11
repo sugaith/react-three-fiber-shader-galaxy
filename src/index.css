@@ -42,7 +42,7 @@ html, body {
 }
 
 p, ul, li {
-  font-size: 14px;
+  font-size: 15px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -59,19 +59,4 @@ a {
   justify-self: center;
   color: white;
   cursor: pointer;
-}
-#image-map-pro-container{
-  background-color: transparent;
-}
-
-@keyframes fadeIn {
-  from {
-    transform: translateY(10px);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateY(0px);
-    opacity: 1;
-  }
 }

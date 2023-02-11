@@ -1,49 +1,29 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { animated } from '@react-spring/web'
 import styled from 'styled-components'
 import blueCircleButton from '../assets/icons/botao-principal-site.svg'
 import { useMediaQuery } from '@react-hook/media-query'
-import { useStore } from '@react-three/fiber'
 
 export function BackButton({ onClick }) {
-  const [show, setShow] = useState(false)
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShow(true)
-    }, 1200)
-    return () => clearTimeout(timer)
-  }, [])
-
   const vwMatches = useMediaQuery('(max-width: 792px)')
   return (
-    <>
-      {show ? (
-        <BackButtonContainer onClick={onClick}>
-          <SlideButtonsLeft src={blueCircleButton} />
-          {!vwMatches && <p>VOLTAR</p>}
-        </BackButtonContainer>
-      ) : null}
-    </>
+    <BackButtonContainer onClick={onClick}>
+      <SlideButtonsLeft src={blueCircleButton} />
+      {!vwMatches && <p>VOLTAR</p>}
+    </BackButtonContainer>
   )
 }
 
 export const BackButtonContainer = styled.div`
   position: absolute;
-  top: 50%;
-  left: 1%;
+  top: 40%;
+  left: 9%;
   display: flex;
   align-items: center;
   flex-direction: row;
   color: white;
   cursor: pointer;
-  z-index: 9999;
-  transition: 0.5s all ease-in-out;
-  &:hover {
-    transform: scale(1.2);
-    -webkit-filter: drop-shadow(0 0 1rem #ffffff);
-    transition: transform 0.5s ease;
-  }
+  z-index: 15;
   img {
     height: 42px;
     margin-right: 6px;
@@ -51,9 +31,6 @@ export const BackButtonContainer = styled.div`
   P {
     font-size: 0.72rem;
     letter-spacing: 3px;
-    &:hover {
-      -webkit-filter: drop-shadow(0 0 1rem #ffffff);
-    }
   }
   @media (max-width: 792px), (max-height: 510px) {
     top: 3%;

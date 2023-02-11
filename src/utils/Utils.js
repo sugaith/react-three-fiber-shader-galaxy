@@ -32,14 +32,6 @@ export function arr2Xyz(arrXyz, y, z) {
   }
 }
 
-export function rgbDecimal2Int(rgbObj) {
-  return {
-    r: parseInt(rgbObj.r),
-    g: parseInt(rgbObj.g),
-    b: parseInt(rgbObj.b),
-  }
-}
-
 export const useStateWithCallback = (initialState) => {
   const [state, setState] = useState(initialState)
   const callbackRef = useRef(() => undefined)

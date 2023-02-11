@@ -2,7 +2,7 @@ import React, { useMemo, useRef } from 'react'
 import * as THREE from 'three'
 import { useFrame, useThree } from '@react-three/fiber'
 import { useGLTF } from '@react-three/drei'
-import { animated, easings, useSpring } from '@react-spring/three'
+import { animated } from '@react-spring/three'
 import {
   rgbObject2ThreeColor,
   getRandomArbitrary,
@@ -13,23 +13,13 @@ import {
   useGalaxyColorControls,
   useGalaxySizeControls,
 } from '../../../../utils/UIXControls'
-import LightGalaxy from './LightGalaxy'
-import { useControlsStore } from '../../../../ControlsStore'
 
 export default function Galaxy({ config, reference }) {
-  const galaxySize = useControlsStore((state) => state.galaxySize)
-  const { galaxySizeSpring } = useSpring({
-    galaxySizeSpring: galaxySize,
-    config: {
-      duration: 3600,
-      easing: easings.easeOutCubic,
-    },
-  })
+  const { galaxySize } = useGalaxySizeControls(config.galaxySizes)
 
   return (
-    <animated.mesh ref={reference} scale={galaxySizeSpring}>
-      {/*<GalaxyModel config={config} position={[-110, -110, 110]} />*/}
-      <LightGalaxy position={[0, 0, 0]} config={config} />
+    <animated.mesh ref={reference} scale={galaxySize}>
+      <GalaxyModel config={config} position={[-110, -110, 110]} />
     </animated.mesh>
   )
 }

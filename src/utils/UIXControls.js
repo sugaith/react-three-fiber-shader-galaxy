@@ -2,6 +2,7 @@ import { useCallback, useEffect } from 'react'
 import { useControls } from 'leva'
 import AsyncStorage from '@callstack/async-storage/'
 import debounce from 'lodash/debounce'
+import { Resizer } from 'postprocessing'
 
 export const galaxyConfigFields = {
   galaxySizes: 'galaxySizes',
@@ -19,13 +20,13 @@ export function useGalaxySizeControls(config) {
     'Galaxy Sizes',
     () => ({
       particleSize: {
-        value: config?.particleSize || 30.35,
+        value: config?.particleSize || 45.35,
         min: 0.01,
         max: 180,
         step: 0.01,
       },
       galaxySize: {
-        value: config?.galaxySize || 27.16,
+        value: config?.galaxySize || 42.16,
         min: 1,
         max: 500,
         step: 0.01,
@@ -59,19 +60,19 @@ export function useGalaxyColorControls(config) {
     set,
   ] = useControls('Galaxy Colors', () => ({
     transparency: {
-      value: config?.transparency || 0.26,
+      value: config?.transparency || 0.56,
       min: 0.01,
       max: 1.0,
       step: 0.01,
     },
-    uniColor: config?.uniColor || { r: 145, g: 169, b: 255 },
+    uniColor: config?.uniColor || { r: 174, g: 186, b: 229 },
     mixFactorUniColor1: {
       value: config?.mixFactorUniColor1 || 2,
       min: 0.01,
       max: 2.0,
       step: 0.01,
     },
-    uniColor2: config?.uniColor2 || { r: 0, g: 26, b: 141 },
+    uniColor2: config?.uniColor2 || { r: 0, g: 47, b: 255 },
     mixFactorRadiusUniColor2: {
       value: config?.mixFactorRadiusUniColor2 || 3.9399,
       min: 0.01,
@@ -117,31 +118,31 @@ export function useDepthOfFieldControls(config) {
   const [{ focusDistance, focalLength, bokehScale, width, height }, set] =
     useControls('Depth of Field'.toUpperCase(), () => ({
       focusDistance: {
-        value: config?.focusDistance || 0.61,
+        value: config?.focusDistance || 0.18,
         min: 0,
         max: 1,
         step: 0.0005,
       },
       focalLength: {
-        value: config?.focalLength || 0.25,
+        value: config?.focalLength || 0.39,
         min: 0,
         max: 1,
         step: 0.0005,
       },
       bokehScale: {
-        value: config?.bokehScale || 0.47,
+        value: config?.bokehScale || 0.52,
         min: 0,
         max: 10,
         step: 0.01,
       },
       width: {
-        value: config?.width || 64,
+        value: config?.width || 128,
         min: 1,
         max: 270,
         step: 0.1,
       },
       height: {
-        value: config?.height || 64,
+        value: config?.height || 128,
         min: 1,
         max: 270,
         step: 0.1,
@@ -179,19 +180,19 @@ export function useBloomControls(config) {
   const [{ intensity, luminanceThreshold, luminanceSmoothing }, set] =
     useControls('BLOOM', () => ({
       intensity: {
-        value: config?.intensity || 1.8,
+        value: config?.intensity || 1,
         min: 0,
         max: 10,
         step: 0.1,
       },
       luminanceThreshold: {
-        value: config?.luminanceThreshold || 0.67,
+        value: config?.luminanceThreshold || 0.0,
         min: 0,
         max: 1,
         step: 0.01,
       },
       luminanceSmoothing: {
-        value: config?.luminanceSmoothing || 0.61,
+        value: config?.luminanceSmoothing || 0.06,
         min: 0,
         max: 1,
         step: 0.005,

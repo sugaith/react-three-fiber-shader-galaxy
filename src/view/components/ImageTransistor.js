@@ -1,12 +1,10 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable semi */
-import React, { useEffect, useRef, useState } from "react";
-import { animated, useTransition } from "@react-spring/web";
-import styled from "styled-components";
+import React, { useEffect, useRef, useState } from 'react'
+import { animated, useTransition } from '@react-spring/web'
+import styled from 'styled-components'
 
 const sleep = (ms) => {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-};
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
 export default function ImageTransistor({
   disabled,
   imageSources,
@@ -15,48 +13,48 @@ export default function ImageTransistor({
   transitionTime,
 }) {
   const [items, setItems] = useState(
-    imageSources?.[0] ? [imageSources?.[0]] : []
-  );
+    imageSources?.[0] ? [imageSources?.[0]] : [],
+  )
 
-  const toggleRef = useRef(true);
+  const toggleRef = useRef(true)
 
   const transitions = useTransition(items, {
     from: { opacity: 0 },
     enter: { opacity: 0.9 },
     leave: { opacity: 0 },
-  });
+  })
 
   useEffect(() => {
-    if (disabled) return;
-    toggleRef.current = toggle;
+    if (disabled) return
+    toggleRef.current = toggle
     if (toggle) {
-      transIn();
+      transIn()
     } else {
-      transOut();
+      transOut()
     }
-  }, [toggle]);
+  }, [toggle])
 
   async function transIn() {
-    const newItems = [...items];
+    const newItems = [...items]
     for (const i in imageSources) {
-      if (i < newItems.length) continue;
-      if (i < 1) await sleep(transitionTime);
+      if (i < newItems.length) continue
+      if (i < 1) await sleep(transitionTime)
 
-      const item = imageSources[i];
-      newItems.push(item);
+      const item = imageSources[i]
+      newItems.push(item)
 
-      setItems([...newItems]);
+      setItems([...newItems])
     }
     setTimeout(() => {
-      if (!toggleRef.current) transOut();
-    }, transitionTime);
+      if (!toggleRef.current) transOut()
+    }, transitionTime)
   }
 
   async function transOut() {
     while (items.length > 1) {
-      items.pop();
-      await sleep(transitionTime);
-      setItems([...items]);
+      items.pop()
+      await sleep(transitionTime)
+      setItems([...items])
     }
   }
 
@@ -66,20 +64,20 @@ export default function ImageTransistor({
         {transitions((style, item, t, i) => {
           return (
             <ImgContainer
-              key={"img" + i + t}
+              key={'img' + i + t}
               src={item}
               width={width}
               style={{
                 opacity: style.opacity,
               }}
             />
-          );
+          )
         })}
       </Container>
-    );
+    )
   }
 
-  return render();
+  return render()
 }
 
 const Container = styled(animated.div)`
@@ -88,7 +86,7 @@ const Container = styled(animated.div)`
   position: relative;
   width: 100%;
   height: 100%;
-`;
+`
 const ImgContainer = styled(animated.img)`
   position: absolute;
   -webkit-filter: drop-shadow(0px 0px 4px rgb(10, 78, 255, 0.8));
@@ -98,4 +96,4 @@ const ImgContainer = styled(animated.img)`
   :hover {
     -webkit-filter: drop-shadow(0 0 1rem #fff);
   }
-`;
+`
