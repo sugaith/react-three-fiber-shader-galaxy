@@ -13,13 +13,15 @@ import {
   useGalaxyColorControls,
   useGalaxySizeControls,
 } from '../../../../utils/UIXControls'
+import LightGalaxy from './LightGalaxy'
 
 export default function Galaxy({ config, reference }) {
   const { galaxySize } = useGalaxySizeControls(config.galaxySizes)
 
   return (
     <animated.mesh ref={reference} scale={galaxySize}>
-      <GalaxyModel config={config} position={[-110, -110, 110]} />
+      <LightGalaxy position={[0, 0, 0]} config={config} />
+      {/*<GalaxyModel config={config} position={[-110, -110, 110]} />*/}
     </animated.mesh>
   )
 }

@@ -37,13 +37,11 @@ export default function MainPage(props) {
     <ContainerMiddle style={props.style}>
       <Section>
         <Slogan>
-          <p>{'Bem Vindo ao nosso Portal Virtual'.toUpperCase()}</p>
-          <p>
-            {'Transformando vidas por meio da educação de qualidade.'.toUpperCase()}
-          </p>
+          <p></p>
+          <p>{'Hello there Universe'.toUpperCase()}</p>
         </Slogan>
         <EnterButton onClick={onEnterButtonClick}>
-          <p>{'Explore seu futuro'.toUpperCase()}</p>
+          <p>{'Play with controls on the top-right'.toUpperCase()}</p>
           <EnterIcon
             style={{
               scale: x.to({

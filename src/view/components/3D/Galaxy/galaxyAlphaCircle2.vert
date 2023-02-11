@@ -5,8 +5,6 @@ uniform vec3 uniColor2;
 uniform float mixFactorUniColor1;
 uniform float mixFactorRadiusUniColor2;
 uniform float uniTransparency;
-
-attribute float attrScale;
 varying vec3 varyColor;
 varying vec3 varyColor2;
 varying vec3 varyPosition;
@@ -19,18 +17,18 @@ void main() {
 
   float angle = atan(modelPosition.x, modelPosition.z);
   float distanceToCenter = distance(modelPosition.xyz, vec3(0.0));
-  float angleOffset = 1000.0 / distanceToCenter * uniTime / 9.0;
+  float angleOffset = 1000.0 / distanceToCenter * uniTime;
   angle += angleOffset;
-  modelPosition.x += sin(angle) * 450.0;
-  modelPosition.y += sin(angle) * 450.0;
-  modelPosition.z += sin(angle) * 450.0;
+  modelPosition.x += cos(angle) * 30.0;
+  modelPosition.y += sin(angle) * 60.0;
+  modelPosition.z += cos(angle) * 90.0;
 
   vec4 viewPosition = viewMatrix * modelPosition;
   vec4 projectedPosition = projectionMatrix * viewPosition;
   gl_Position = projectedPosition;
 
   //scale
-  gl_PointSize = uniSize * attrScale;
+  gl_PointSize = uniSize * 1.0;
   // TODO size attenation..
   // this multipling should not be needed
   gl_PointSize *= 50.0;

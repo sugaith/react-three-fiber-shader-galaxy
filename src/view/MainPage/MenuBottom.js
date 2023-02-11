@@ -63,45 +63,9 @@ export default function MenuBottom({ toggleMenu }) {
         style={toggleMenuSpring}
       >
         <MenuItem
-          isActive={isNucleosPageVisible}
-          onClick={() => handleViewToggles(toggleNucleosPage)}
-          src={bottomMenuIconsData.nucleoIcons}
-          width={iconSize}
-        />
-        <MenuItem
-          isActive={isPolosPageVisible}
-          onClick={() => handleViewToggles(togglePolosPage)}
-          src={bottomMenuIconsData.polosIcons}
-          width={iconSize}
-        />
-        <MenuItem
           isActive={isCentrosPageVisible}
           onClick={() => handleViewToggles(toggleCentrosPage)}
           src={bottomMenuIconsData.centrosIcons}
-          width={iconSize}
-        />
-        <MenuItem
-          isActive={isTecnologiaPageVisible}
-          onClick={() => handleViewToggles(toggleTecnologiaPage)}
-          src={bottomMenuIconsData.tecnologiasIcons}
-          width={iconSize}
-        />
-        <MenuItem
-          isActive={isAcademicosPageVisible}
-          onClick={() => handleViewToggles(toggleAcademicosPage)}
-          src={bottomMenuIconsData.academicoIcons}
-          width={iconSize}
-        />
-        <MenuItem
-          isActive={isHistoriasPageVisible}
-          onClick={() => handleViewToggles(toggleHistoriasPage)}
-          src={bottomMenuIconsData.historiaIcons}
-          width={iconSize}
-        />
-        <MenuItem
-          isActive={isBeneficiosPageVisible}
-          onClick={() => handleViewToggles(toggleBeneficiosPage)}
-          src={bottomMenuIconsData.beneficioIcons}
           width={iconSize}
         />
       </Container>

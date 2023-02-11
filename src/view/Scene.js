@@ -44,7 +44,7 @@ export default function Scene() {
 
     const loadConfig = async () => {
       // this key must be changes in order to reset config
-      const resetKey = 'key'
+      const resetKey = 'ksdsdasdey'
       if ((await AsyncStorage.getItem(resetKey)) !== 'true') {
         console.log('clear config!')
         await AsyncStorage.clear()

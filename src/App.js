@@ -13,7 +13,7 @@ const levaTheme = { sizes: { rootWidth: '240px' } }
 
 export default function App() {
   const { enableOrbitControls } = useControls('General', {
-    enableOrbitControls: false,
+    enableOrbitControls: true,
   })
   const isMusicPlaying = useStore((state) => state.isMusicPlaying)
   const setMusicToPlay = useStore((state) => state.setMusicToPlay)
@@ -24,7 +24,7 @@ export default function App() {
   const soundCloudRobertRichPerpetual = 'https://youtu.be/sNwukK7Y8wQ?t=6'
   return (
     <>
-      {/*<Stats showPanel={0} className="stats" />*/}
+      <Stats showPanel={0} className="stats" />
       <Leva
         theme={levaTheme}
         oneLineLabels={true}

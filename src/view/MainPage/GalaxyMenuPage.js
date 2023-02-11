@@ -65,60 +65,6 @@ export default function GalaxyMenuPage() {
       })
   }, [isMainMenuVisible])
 
-  function onMenuNucleosClick() {
-    playNucleosPath(() => {
-      toggleNucleosPage()
-      setGalaxyColors({
-        transparency: insidePageTransparency,
-      })
-    })
-    toggleMainMenuVisible()
-  }
-  function onMenuPolosClick() {
-    playPolosPath(() => {
-      togglePolosPage()
-      setGalaxyColors({
-        transparency: insidePageTransparency,
-      })
-    })
-    toggleMainMenuVisible()
-  }
-  function onMenuAcademicosClick() {
-    playAcademicosPath(() => {
-      toggleAcademicosPage()
-      setGalaxyColors({
-        transparency: insidePageTransparency,
-      })
-    })
-    toggleMainMenuVisible()
-  }
-  function onMenuBeneficiosClick() {
-    playBeneficiosPath(() => {
-      toggleBeneficiosPage()
-      setGalaxyColors({
-        transparency: insidePageTransparency,
-      })
-    })
-    toggleMainMenuVisible()
-  }
-  function onMenuHistoriasClick() {
-    playHistoriasPath(() => {
-      toggleHistoriasPage()
-      setGalaxyColors({
-        transparency: insidePageTransparency,
-      })
-    })
-    toggleMainMenuVisible()
-  }
-  function onMenuTecnologiaClick() {
-    playTecnologiaPath(() => {
-      toggleTecnologiaPage()
-      setGalaxyColors({
-        transparency: insidePageTransparency,
-      })
-    })
-    toggleMainMenuVisible()
-  }
   function onMenuCentrosClick() {
     playCentrosPath(() => {
       toggleCentrosPage()
@@ -156,52 +102,10 @@ export default function GalaxyMenuPage() {
   const z_position = 1500
   const menuItems = [
     {
-      position: makeResponsivePos([-2000, y_position, z_position - 300], -360),
-      text: 'Benefícios'.toUpperCase(),
-      logoSrc: iconGroups.beneficioIcons,
-      onClick: onMenuBeneficiosClick,
-    },
-    {
-      text: 'Núcleos'.toUpperCase(),
-      position: [-2400, y_position, 0],
-      logoSrc: iconGroups.nucleoIcons,
-      onClick: onMenuNucleosClick,
-    },
-    {
-      position: makeResponsivePos([-2000, y_position, -z_position + 300], 360),
-      text: 'Polos'.toUpperCase(),
-      logoSrc: iconGroups.polosIcons,
-      onClick: onMenuPolosClick,
-    },
-    {
-      position: makeResponsivePos([-600, y_position, z_position - 300], -360),
-      text: 'Histórias'.toUpperCase(),
-      logoSrc: iconGroups.historiaIcons,
-      onClick: onMenuHistoriasClick,
-    },
-    {
       position: makeResponsivePos([-760, y_position, -z_position + 300], 360),
-      text: 'Centros Universitários e Faculdades'.toUpperCase(),
+      text: 'jwst'.toUpperCase(),
       logoSrc: iconGroups.centrosIcons,
       onClick: onMenuCentrosClick,
-    },
-    {
-      position: makeResponsivePos(
-        [500, y_position - 500, z_position - 700],
-        -150,
-      ),
-      text: 'Acadêmico'.toUpperCase(),
-      logoSrc: iconGroups.academicoIcons,
-      onClick: onMenuAcademicosClick,
-    },
-    {
-      position: makeResponsivePos(
-        [500, y_position - 500, -z_position + 700],
-        150,
-      ),
-      text: 'Tecnologia'.toUpperCase(),
-      logoSrc: iconGroups.tecnologiasIcons,
-      onClick: onMenuTecnologiaClick,
     },
   ]
 
@@ -222,24 +126,24 @@ export default function GalaxyMenuPage() {
           onClick={menuItem.onClick}
         />
       ))}
-      {/*<line*/}
-      {/*  geometry={new THREE.BufferGeometry().setFromPoints(*/}
-      {/*    nucleosPath.getPoints(150),*/}
-      {/*  )}*/}
-      {/*  material={new THREE.LineBasicMaterial({ color: 0x00ffff })}*/}
-      {/*/>*/}
-      {/*<line*/}
-      {/*  geometry={new THREE.BufferGeometry().setFromPoints(*/}
-      {/*    polosPath.getPoints(150),*/}
-      {/*  )}*/}
-      {/*  material={new THREE.LineBasicMaterial({ color: 0x00ffff })}*/}
-      {/*/>*/}
-      {/*<line*/}
-      {/*  geometry={new THREE.BufferGeometry().setFromPoints(*/}
-      {/*    beneficiosPath.getPoints(150),*/}
-      {/*  )}*/}
-      {/*  material={new THREE.LineBasicMaterial({ color: 0x00ffff })}*/}
-      {/*/>*/}
+      <line
+        geometry={new THREE.BufferGeometry().setFromPoints(
+          nucleosPath.getPoints(150),
+        )}
+        material={new THREE.LineBasicMaterial({ color: 0x00ffff })}
+      />
+      <line
+        geometry={new THREE.BufferGeometry().setFromPoints(
+          polosPath.getPoints(150),
+        )}
+        material={new THREE.LineBasicMaterial({ color: 0x00ffff })}
+      />
+      <line
+        geometry={new THREE.BufferGeometry().setFromPoints(
+          beneficiosPath.getPoints(150),
+        )}
+        material={new THREE.LineBasicMaterial({ color: 0x00ffff })}
+      />
     </mesh>
   )
 }
