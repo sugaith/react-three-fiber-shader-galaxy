@@ -2,111 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c24faf73-4155-4399-9333-a0891e984efb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/view/components/3D/Galaxy/LightGalaxy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/academico/academico-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/academico/academico-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/academico/academico-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/academico/academico-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/academico/academico-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/academico/academico-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/academico/academico-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/academico/academico-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/beneficios/beneficios-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/beneficios/beneficios-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/beneficios/beneficios-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/beneficios/beneficios-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/beneficios/beneficios-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/beneficios/beneficios-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/beneficios/beneficios-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/beneficios/beneficios-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/historias/historias-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/historias/historias-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/historias/historias-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/historias/historias-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/historias/historias-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/historias/historias-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/historias/historias-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/historias/historias-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/nucleos/nucleos-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/nucleos/nucleos-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/nucleos/nucleos-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/nucleos/nucleos-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/nucleos/nucleos-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/nucleos/nucleos-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/nucleos/nucleos-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/nucleos/nucleos-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/nucleos/nucleos-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/polos/polos-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/polos/polos-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/polos/polos-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/polos/polos-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/polos/polos-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/polos/polos-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/polos/polos-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/polos/polos-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/tecnologia/tecnologias-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/tecnologia/tecnologias-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/tecnologia/tecnologias-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/tecnologia/tecnologias-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/tecnologia/tecnologias-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/tecnologia/tecnologias-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/tecnologia/tecnologias-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/cruzeiroDoSulIcons/tecnologia/tecnologias-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/musica.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AcademicosPage/AcademicosPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AcademicosPage/AcademicosPageData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AcademicosPage/AcademicosPageStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AcademicosPage/logo-academicos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/BeneficiosPage/BeneficiosPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/BeneficiosPage/BeneficiosPageData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/BeneficiosPage/BeneficiosPageStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/BeneficiosPage/logo-beneficios.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/CentrosPage/CentrosPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/CentrosPage/CentrosPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/HistoriasPage/HistoriasPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/HistoriasPage/HistoriasPageData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/HistoriasPage/HistoriasPageStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/HistoriasPage/logo-historias.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/HtmlView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/HtmlView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainPage/GalaxyMenuPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainPage/GalaxyMenuPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainPage/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainPage/MenuBottom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainPage/MenuBottom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainPage/MenuTop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainPage/mainPageData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainPage/mainPageData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/NucleosPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/NucleosPageStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/logo-nucleos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/neti/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/neti/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/neti/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/neti/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/ni/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/ni/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/ni/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/ni/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/niac/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/nubem/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/nubem/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/nubem/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/nubem/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/nucleosPageData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/pip/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/pip/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/pip/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/NucleosPage/pip/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/PolosPage/PolosPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/PolosPage/PolosPageStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/PolosPage/logo-polos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/PolosPage/polos-mapa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Scene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Scene.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TecnologiaPage/TecnologiaPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TecnologiaPage/TecnologiaPageData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TecnologiaPage/TecnologiaPageStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TecnologiaPage/logo-academicos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TecnologiaPage/tecnologia-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/components/3D/Galaxy/Galaxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/components/3D/Galaxy/Galaxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/components/3D/Galaxy/galaxyAlphaCircle2.vert" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/components/3D/Galaxy/galaxyAlphaCircle2.vert" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +67,7 @@
       <updated>1675972891833</updated>
       <workItem from="1675972895872" duration="14241000" />
       <workItem from="1676065419217" duration="137000" />
-      <workItem from="1676065568800" duration="11690000" />
+      <workItem from="1676065568800" duration="12316000" />
     </task>
     <servers />
   </component>
