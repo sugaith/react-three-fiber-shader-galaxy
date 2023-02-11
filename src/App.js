@@ -83,14 +83,14 @@ export default function App() {
 
   return (
     <>
-      {/*<Stats showPanel={0} className="stats" />*/}
+      <Stats showPanel={0} className="stats" />
       <div style={{ visibility: shouldShowGalaxy ? 'visible' : 'hidden' }}>
         <Leva
           theme={levaTheme}
           oneLineLabels={true}
           hideTitleBar={false}
           collapsed={true}
-          hidden={true}
+          hidden={false}
         />
         <Player
           url={soundCloudRobertRichPerpetual}
