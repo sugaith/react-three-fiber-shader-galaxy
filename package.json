@@ -2,7 +2,7 @@
   "name": "cruzeiro-do-sul",
   "version": "0.1.0",
   "node_version": "16.8.0",
-  "private": true,
+  "private": false,
   "homepage": "https://sugaith.github.io/react-three-fiber-shader-galaxy/",
   "dependencies": {
     "@babel/core": "^7.17.5",
