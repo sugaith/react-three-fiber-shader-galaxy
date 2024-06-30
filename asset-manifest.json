@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-three-fiber-shader-boilerplate/static/css/main.ef52b8c5.css",
-    "main.js": "/react-three-fiber-shader-boilerplate/static/js/main.17a71f2d.js",
-    "static/js/787.886c6872.chunk.js": "/react-three-fiber-shader-boilerplate/static/js/787.886c6872.chunk.js",
-    "static/media/BlissPro-ExtraBold.otf": "/react-three-fiber-shader-boilerplate/static/media/BlissPro-ExtraBold.3e0fabb80d1d6f83dfb8.otf",
-    "static/media/BlissPro-Bold.otf": "/react-three-fiber-shader-boilerplate/static/media/BlissPro-Bold.38746854a33af75880bb.otf",
-    "static/media/BlissPro-Light.otf": "/react-three-fiber-shader-boilerplate/static/media/BlissPro-Light.959e17d23d3680614347.otf",
-    "static/media/BlissPro-Heavy.otf": "/react-three-fiber-shader-boilerplate/static/media/BlissPro-Heavy.647cea6124df6d58ad98.otf",
-    "static/media/BlissPro-ExtraLight.otf": "/react-three-fiber-shader-boilerplate/static/media/BlissPro-ExtraLight.ea912605de4745f69613.otf",
-    "static/media/centros-7.png": "/react-three-fiber-shader-boilerplate/static/media/centros-7.4a808949cc699cd3311a.png",
-    "static/media/centros-3.png": "/react-three-fiber-shader-boilerplate/static/media/centros-3.4c5a264a98759a26347c.png",
-    "static/media/botao-principal-site.svg": "/react-three-fiber-shader-boilerplate/static/media/botao-principal-site.4b06ce6bd8f4684d014a7c93bda6f3e9.svg",
-    "index.html": "/react-three-fiber-shader-boilerplate/index.html",
-    "static/media/botao-som.svg": "/react-three-fiber-shader-boilerplate/static/media/botao-som.ee620bdd545e2a6036f1f4c6f9a9c471.svg",
-    "main.ef52b8c5.css.map": "/react-three-fiber-shader-boilerplate/static/css/main.ef52b8c5.css.map",
-    "main.17a71f2d.js.map": "/react-three-fiber-shader-boilerplate/static/js/main.17a71f2d.js.map",
-    "787.886c6872.chunk.js.map": "/react-three-fiber-shader-boilerplate/static/js/787.886c6872.chunk.js.map"
+    "main.css": "/react-three-fiber-shader-galaxy/static/css/main.1f564d35.css",
+    "main.js": "/react-three-fiber-shader-galaxy/static/js/main.3df3854b.js",
+    "static/js/787.886c6872.chunk.js": "/react-three-fiber-shader-galaxy/static/js/787.886c6872.chunk.js",
+    "static/media/BlissPro-ExtraBold.otf": "/react-three-fiber-shader-galaxy/static/media/BlissPro-ExtraBold.3e0fabb80d1d6f83dfb8.otf",
+    "static/media/BlissPro-Bold.otf": "/react-three-fiber-shader-galaxy/static/media/BlissPro-Bold.38746854a33af75880bb.otf",
+    "static/media/BlissPro-Light.otf": "/react-three-fiber-shader-galaxy/static/media/BlissPro-Light.959e17d23d3680614347.otf",
+    "static/media/BlissPro-Heavy.otf": "/react-three-fiber-shader-galaxy/static/media/BlissPro-Heavy.647cea6124df6d58ad98.otf",
+    "static/media/BlissPro-ExtraLight.otf": "/react-three-fiber-shader-galaxy/static/media/BlissPro-ExtraLight.ea912605de4745f69613.otf",
+    "static/media/centros-7.png": "/react-three-fiber-shader-galaxy/static/media/centros-7.4a808949cc699cd3311a.png",
+    "static/media/centros-3.png": "/react-three-fiber-shader-galaxy/static/media/centros-3.4c5a264a98759a26347c.png",
+    "static/media/botao-principal-site.svg": "/react-three-fiber-shader-galaxy/static/media/botao-principal-site.8cf9e52204bc08338c0ec91d5c71e79e.svg",
+    "index.html": "/react-three-fiber-shader-galaxy/index.html",
+    "static/media/botao-som.svg": "/react-three-fiber-shader-galaxy/static/media/botao-som.d7694495c8289b4c003451439febdf9d.svg",
+    "main.1f564d35.css.map": "/react-three-fiber-shader-galaxy/static/css/main.1f564d35.css.map",
+    "main.3df3854b.js.map": "/react-three-fiber-shader-galaxy/static/js/main.3df3854b.js.map",
+    "787.886c6872.chunk.js.map": "/react-three-fiber-shader-galaxy/static/js/787.886c6872.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef52b8c5.css",
-    "static/js/main.17a71f2d.js"
+    "static/css/main.1f564d35.css",
+    "static/js/main.3df3854b.js"
   ]
 }
