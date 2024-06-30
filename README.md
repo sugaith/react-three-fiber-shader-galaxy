@@ -1,5 +1,5 @@
 #   WEBGL THREE.JS React-Three-Fiber 3D Galaxy
-See running: [https://sugaith.github.io/react-three-fiber-shader-boilerplate/](https://sugaith.github.io/react-three-fiber-shader-boilerplate/)
+See running: [https://sugaith.github.io/react-three-fiber-shader-galaxy/](https://sugaith.github.io/react-three-fiber-shader-galaxy/)
 
 ## A boilerplate containing:
 - react-three-fiber ejected project with GLSL added on WebPack
