@@ -10,4 +10,4 @@ See running: [https://sugaith.github.io/react-three-fiber-shader-galaxy/](https:
 - camera animations
 - animations with GSAP and React-Spring
 
-![Print](print.png?raw=true)
+[![Print](print.png?raw=true)](https://sugaith.github.io/react-three-fiber-shader-galaxy/)
